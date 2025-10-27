@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "paperdrawermod:blocks/paperblockend",
+    "up": "paperdrawermod:blocks/paperblockend",
+    "north": "paperdrawermod:blocks/paperblockend",
+    "east": "paperdrawermod:blocks/paperblockend",
+    "south": "paperdrawermod:blocks/paperblockend",
+    "west": "paperdrawermod:blocks/paperblockend",
+    "particle": "paperdrawermod:blocks/paperblockend"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "paperdrawermod:block/paper_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "paperdrawermod:block/paper_dimension_portal_ns"
+    }
+  }
+}

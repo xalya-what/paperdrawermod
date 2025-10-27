@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "paperdrawermod:block/paperblock_nether"
+    }
+  }
+}

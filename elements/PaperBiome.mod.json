@@ -1,0 +1,182 @@
+{
+  "_fv": 33,
+  "_type": "biome",
+  "definition": {
+    "name": "Paper Biome",
+    "groundBlock": {
+      "value": "CUSTOM:PaperBlock"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:PaperBlock"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.DEAD_BRAIN_CORAL_BLOCK"
+    },
+    "airColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "CUSTOM:Papershreds"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "NONE",
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "spawnBiome": false,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
+    "biomeWeight": 10,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 4,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 4,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 7,
+    "treeStem": {
+      "value": "CUSTOM:PaperBlock"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:PaperBlock"
+    },
+    "treeVines": {
+      "value": "CUSTOM:PaperBlock"
+    },
+    "treeFruits": {
+      "value": "CUSTOM:PaperBlock"
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "FrozenTopLayer",
+      "AmethystGeodes",
+      "Bamboo",
+      "DeadBushes",
+      "DesertFeatures",
+      "Fossils",
+      "Icebergs",
+      "InfestedStone",
+      "JungleGrass",
+      "JungleTreeForest",
+      "Lakes",
+      "LushCavesDecoration",
+      "MeadowVegetation",
+      "MonsterRooms",
+      "OceanCaves",
+      "PlainsTallGrass",
+      "ReedsAndPumpkins",
+      "SavannaTrees",
+      "SwampVegetation",
+      "TaigaGrassAndMushrooms",
+      "TaigaLargeFerns",
+      "TaigaRocks",
+      "TallSeagrassLush"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Facelessdrawer"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Paperdrawer"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Pieces"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Piecesfaceless"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityArmorStand"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

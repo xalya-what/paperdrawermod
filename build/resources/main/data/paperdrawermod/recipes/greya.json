@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "paperdrawermod:paper_block_end"
+    }
+  ],
+  "result": {
+    "item": "paperdrawermod:o_5_grit",
+    "count": 1
+  }
+}

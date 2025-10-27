@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "paperdrawermod:blocks/cum",
+    "particle": "paperdrawermod:blocks/cum"
+  }
+}

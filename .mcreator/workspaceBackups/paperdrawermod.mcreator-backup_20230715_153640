@@ -1,0 +1,470 @@
+{
+  "mod_elements": [
+    {
+      "name": "Paperdrawer",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paperdrawer"
+    },
+    {
+      "name": "Facelessdrawer",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "facelessdrawer"
+    },
+    {
+      "name": "Papershreds",
+      "type": "particle",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "papershreds"
+    },
+    {
+      "name": "Pieces",
+      "type": "livingentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pieces"
+    },
+    {
+      "name": "Piecesfaceless",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "facelesspieces"
+    },
+    {
+      "name": "Papernormalspawn",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "papernormalspawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Paperfacelessspawn",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paperfacelessspawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Normalspawn",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "normalspawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Facelessspawn",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "facelessspawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Paperspawner",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paperspawner"
+    },
+    {
+      "name": "Facelesspaperspawner",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "facelesspaperspawner"
+    },
+    {
+      "name": "Thing",
+      "type": "painting",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thing"
+    },
+    {
+      "name": "Auto",
+      "type": "plant",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto"
+    },
+    {
+      "name": "PaperBlock",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paper_block"
+    },
+    {
+      "name": "PaperBiome",
+      "type": "biome",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paper_biome"
+    },
+    {
+      "name": "PaperDimension",
+      "type": "dimension",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paper_dimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "O5Grit",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_5_grit"
+    },
+    {
+      "name": "Paperblockrecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paperblockrecipe"
+    },
+    {
+      "name": "PaperblockNether",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paperblock_nether"
+    },
+    {
+      "name": "PaperBlockEnd",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paper_block_end"
+    },
+    {
+      "name": "PaperNether",
+      "type": "biome",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paper_nether"
+    },
+    {
+      "name": "PaperEnd",
+      "type": "biome",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paper_end"
+    },
+    {
+      "name": "PaperHell",
+      "type": "dimension",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paper_hell",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "PaperTheEnd",
+      "type": "dimension",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paper_the_end",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "NetherBlockrep",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_blockrep"
+    },
+    {
+      "name": "Endrecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endrecipe"
+    },
+    {
+      "name": "Con1",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "con_1"
+    },
+    {
+      "name": "Con2",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "con_2"
+    },
+    {
+      "name": "Ron1",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ron_1"
+    },
+    {
+      "name": "Ron2",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ron_2"
+    },
+    {
+      "name": "Dye1",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dye_1"
+    },
+    {
+      "name": "Net",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "net"
+    },
+    {
+      "name": "Greya",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greya"
+    },
+    {
+      "name": "Paperq",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paperq"
+    },
+    {
+      "name": "Gritrecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gritrecipe"
+    },
+    {
+      "name": "Paperj",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paperj"
+    },
+    {
+      "name": "Papern",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "papern"
+    },
+    {
+      "name": "Papere",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "papere"
+    },
+    {
+      "name": "Papernj",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "papernj"
+    },
+    {
+      "name": "Paperej",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paperej"
+    },
+    {
+      "name": "Papernormal",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "papernormal"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.paperdrawermod.facelesspieces_spawn_egg": "Pieces Spawn Egg",
+      "entity.paperdrawermod.facelesspieces": "Pieces",
+      "entity.paperdrawermod.pieces": "Pieces",
+      "item.paperdrawermod.paperdrawer_spawn_egg": "Paperdrawer Spawn Egg",
+      "entity.paperdrawermod.facelessdrawer": "Paperdrawer",
+      "biome.paperdrawermod.paper_end": "Paper Biome",
+      "item.paperdrawermod.facelesspaperspawner": "Paperspawner",
+      "item.paperdrawermod.paperspawner": "Paperspawner",
+      "block.paperdrawermod.auto": "Auto",
+      "block.paperdrawermod.paper_block_end": "Paper Block End",
+      "item.paperdrawermod.paper_hell": "Paper Hell Portal Igniter",
+      "entity.paperdrawermod.paperdrawer": "Paperdrawer",
+      "item.paperdrawermod.pieces_spawn_egg": "Pieces Spawn Egg",
+      "biome.paperdrawermod.paper_biome": "Paper Biome",
+      "item.paperdrawermod.o_5_grit": "O.5 Grit",
+      "biome.paperdrawermod.paper_nether": "Paper Biome",
+      "item.paperdrawermod.paper_dimension": "Paper Dimension Portal Igniter",
+      "item.paperdrawermod.paper_the_end": "Paper The End Portal Igniter",
+      "block.paperdrawermod.paperblock_nether": "Paper Block Nether",
+      "item.paperdrawermod.facelessdrawer_spawn_egg": "Paperdrawer Spawn Egg",
+      "block.paperdrawermod.paper_block": "Paper Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "paperdrawermod",
+    "modName": "paperdrawermod",
+    "version": "1.0.0",
+    "author": "user, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.paperdrawermod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
